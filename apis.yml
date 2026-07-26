@@ -1,8 +1,24 @@
 aid: evalve
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evalve.png
 name: Evalve
-description: 'Evalve is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Evalve, Inc. was a medical-device company that pioneered percutaneous (catheter-based)
+  mitral valve repair with its MitraClip system for treating mitral regurgitation. It was acquired by
+  Abbott Laboratories in 2009 (~$410M) and folded into Abbott Structural Heart / Abbott Vascular;
+  MitraClip is now an Abbott product. Evalve does not exist as an independent operating company and
+  publishes no developer program, public API, SDKs, or developer documentation. The former evalve.com
+  domain is a parked, for-sale page. Surfaced here as a kleiner-perkins portfolio lead, this is a
+  non-API, defunct/acquired entity with no enrichable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/evalve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,23 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: abbott
+x-acquired-year: 2009
+x-has-api: false
+x-enrichment: no-api-surface
+x-enrichment-checked: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Cardiology
+- Structural Heart
+- Mitral Valve
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
